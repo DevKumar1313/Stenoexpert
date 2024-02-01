@@ -34,11 +34,12 @@
                 android:layout_marginStart="45sp"
 
                 />
-
-
-
-
         </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?actionBarSize"
+            android:layout_marginBottom="?actionBarSize"/>
 
     </RelativeLayout>
 
