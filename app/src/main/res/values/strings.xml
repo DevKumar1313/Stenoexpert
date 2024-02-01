@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Stenoexpert</string>
+    <string name="home">Home</string>
+    <string name="course">Course</string>
+    <string name="downloads">downloads</string>
+    <string name="q_a"><![CDATA[Q&A]]></string>
+    <string name="todo">TODO</string>
+    <string name="tudo">TODO</string>
 </resources>

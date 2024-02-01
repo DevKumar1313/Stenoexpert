@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="@string/home"
+    android:id="@+id/home"
+    android:icon="@drawable/dashboard"
+    />
+    <item
+        android:title="@string/course"
+        android:id="@+id/course"
+        android:icon="@drawable/book"
+        />
+    <item
+        android:title="@string/downloads"
+        android:id="@+id/download"
+        android:icon="@drawable/baseline_download_24"
+        />
+
+    <item
+        android:title="@string/q_a"
+        android:id="@+id/qa"
+        android:icon="@drawable/conversation"
+        />
+
+</menu>
