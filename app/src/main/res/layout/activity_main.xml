@@ -9,17 +9,14 @@
 
 
     <androidx.cardview.widget.CardView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_centerInParent="true"
+        android:background="@color/white"
         app:cardCornerRadius="100dp"
         app:cardElevation="5dp">
 
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:background="@color/white"
-            android:src="@drawable/agamya_logo"/>
+
 
     </androidx.cardview.widget.CardView>
 

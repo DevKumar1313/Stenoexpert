@@ -18,7 +18,7 @@
 
     <item
         android:title="@string/q_a"
-        android:id="@+id/qa"
+        android:id="@+id/helpDesk"
         android:icon="@drawable/conversation"
         />
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:title="@string/home"
+            android:icon="@drawable/home"
+            />
+        <item android:id="@+id/purchase"
+            android:title="@string/my_purchase"
+            android:icon="@drawable/purchase"
+            />
+        <item android:id="@+id/setting"
+            android:title="@string/settings"
+            android:icon="@drawable/setting"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/rating"
+            android:title="@string/rate"
+            android:icon="@drawable/rate"/>
+
+        <item android:id="@+id/share"
+            android:title="@string/share"
+            android:icon="@drawable/share"/>
+
+        <item android:id="@+id/logOut"
+            android:title="@string/log_out"
+            android:icon="@drawable/logout"/>
+    </group>
+</menu>
