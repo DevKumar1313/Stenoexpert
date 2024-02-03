@@ -18,4 +18,12 @@
     <string name="rate">Rate</string>
     <string name="share">Share</string>
     <string name="name">Name</string>
+    <string name="eklavya_batch">Eklavya batch</string>
+    <string name="lecture_video">Lecture video</string>
+    <string name="demo">Demo</string>
+    <string name="logo">logo</string>
+    <string name="_1">1</string>
+    <string name="it_s_beautiful">it\'s beautiful</string>
+    <string name="demo_1">Demo 1</string>
+    <string name="topics_demo_1_demo_2_demo_3">Topics:Demo 1,Demo 2,Demo 3</string>
 </resources>
