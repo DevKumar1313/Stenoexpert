@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Stenoexpert</string>
+
     <string name="home">Home</string>
     <string name="course">Course</string>
     <string name="downloads">downloads</string>
     <string name="q_a"><![CDATA[Q&A]]></string>
-    <string name="todo">TODO</string>
     <string name="tudo">TODO</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -31,10 +31,29 @@
     <string name="OpenDrawer">Open navigation drawer</string>
     <string name="CloseDrawer">Close navigation drawer</string>
     <string name="communicate">Communicate</string>
-    <string name="profile">Profile</string>
     <string name="account">Account</string>
     <string name="contact_us">Contact Us</string>
     <string name="how_can_i_help_you">How can i help you</string>
     <string name="ask">Ask</string>
+
+
+    <string name="users_email_id">users email id</string>
+    <string name="payments_method">Payments Method</string>
+    <string name="users_name">Users name</string>
+    <string name="username">Username</string>
+
+    <string name="cards">Cards</string>
+    <string name="todo">TODO</string>
+    <string name="my_image">my image</string>
+    <string name="profile">Profile</string>
+    <string name="my_images">my images</string>
+    <string name="my_todo">my todo</string>
+    <string name="upi">UPI</string>
+    <string name="choose_image">choose image</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="edit">Edit</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
 
 </resources>
