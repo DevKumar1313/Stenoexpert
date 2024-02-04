@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Stenoexpert</string>
-
+    <string name="home">Home</string>
+    <string name="course">Course</string>
+    <string name="downloads">downloads</string>
+    <string name="q_a"><![CDATA[Q&A]]></string>
+    <string name="tudo">TODO</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home_fragment">home fragment</string>
@@ -22,11 +26,9 @@
     <string name="it_s_beautiful">it\'s beautiful</string>
     <string name="demo_1">Demo 1</string>
     <string name="topics_demo_1_demo_2_demo_3">Topics:Demo 1,Demo 2,Demo 3</string>
-    <string name="tudo">Todo</string>
     <string name="OpenDrawer">Open navigation drawer</string>
     <string name="CloseDrawer">Close navigation drawer</string>
     <string name="communicate">Communicate</string>
-    <string name="profile">Profile</string>
     <string name="account">Account</string>
     <string name="contact_us">Contact Us</string>
     <string name="how_can_i_help_you">How can i help you</string>
@@ -35,11 +37,29 @@
     <string name="page_16">Page - 26</string>
     <string name="lecture_demo1">Lecture : Demo 1</string>
     <string name="video_25_45_mins">Video - 25:45 mins</string>
-    <string name="todo">todo</string>
-    <string name="home">Home</string>
-    <string name="course">Course</string>
-    <string name="downloads">Downloads</string>
-    <string name="q_a">QA</string>
+    <string name="volume_1_become_a_web_developer_specailist_learn_how_to_design_impressive_ui_build_logic_in_back_end_server_side_scripting">Volume 1: Become a Web Developer Specailist, Learn How to Design Impressive UI, Build logic in back-end, Server Side Scripting.</string>
+    <string name="sahil_kumar">Sahil Kumar</string>
+    <string name="view_course">View Course</string>
+
+
+    <string name="users_email_id">users email id</string>
+    <string name="payments_method">Payments Method</string>
+    <string name="users_name">Users name</string>
+    <string name="username">Username</string>
+
+    <string name="cards">Cards</string>
+    <string name="todo">TODO</string>
+    <string name="my_image">my image</string>
+    <string name="profile">Profile</string>
+    <string name="my_images">my images</string>
+    <string name="my_todo">my todo</string>
+    <string name="upi">UPI</string>
+    <string name="choose_image">choose image</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="edit">Edit</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
 
 
 </resources>

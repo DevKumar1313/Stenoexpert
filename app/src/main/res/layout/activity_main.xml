@@ -1,10 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/Gray"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
-</RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="15dp"
+            android:background="@drawable/agamya_logo"
+            app:cardUseCompatPadding="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="361dp"
+            android:background="@drawable/style"
+            android:hint="@string/app_name"
+            android:padding="10dp">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:minHeight="48dp"
+            android:layout_marginStart="15sp"
+            android:text="@string/sahil_kumar"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/white"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/agamya_logo"
+            tools:ignore="ImageContrastCheck" />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="225dp"
+                android:layout_marginStart="25dp"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="@string/volume_1_become_a_web_developer_specailist_learn_how_to_design_impressive_ui_build_logic_in_back_end_server_side_scripting">
+
+            </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="12sp"
+            android:minHeight="48dp"
+            android:text="@string/eklavya_batch"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+
+           <Button
+            android:id="@+id/viewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style"
+            android:text="@string/view_course"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="315dp"
+            android:textSize="25sp">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+
