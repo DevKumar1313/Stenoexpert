@@ -16,7 +16,7 @@
     <string name="log_out">Log Out</string>
     <string name="rate">Rate</string>
     <string name="share">Share</string>
-    <string name="name">Name</string>
+
 
     <string name="eklavya_batch">Eklavya batch</string>
     <string name="lecture_video">Lecture video</string>
@@ -33,6 +33,19 @@
     <string name="contact_us">Contact Us</string>
     <string name="how_can_i_help_you">How can i help you</string>
     <string name="ask">Ask</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="s">Name</string>
+
+
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="todo">TODO</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+
     <string name="notes_demo">Notes demo</string>
     <string name="page_16">Page - 26</string>
     <string name="lecture_demo1">Lecture : Demo 1</string>
@@ -48,7 +61,6 @@
     <string name="username">Username</string>
 
     <string name="cards">Cards</string>
-    <string name="todo">TODO</string>
     <string name="my_image">my image</string>
     <string name="profile">Profile</string>
     <string name="my_images">my images</string>
