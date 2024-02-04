@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/notes_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notes_demo"
+        android:textColor="@color/black"
+
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="45dp"/>
+
+    <TextView
+        android:id="@+id/notes_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/page_16"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="37dp"/>
+
+    <ImageView
+        android:id="@+id/notes_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_download_for_offline_24"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+
+</RelativeLayout>
