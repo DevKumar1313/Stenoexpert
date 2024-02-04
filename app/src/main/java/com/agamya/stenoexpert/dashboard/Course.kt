@@ -1,17 +1,18 @@
 package com.agamya.stenoexpert.dashboard
 
 import android.os.Bundle
+import android.content.Intent
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.agamya.stenoexpert.R
+import com.agamya.stenoexpert.lecturepage.VideoNotesPage
 
 
-class Course : Fragment() {
+class Course : Fragment(),RecyclerViewClickInterface {
 
     private lateinit var rv: RecyclerView
 
@@ -32,9 +33,14 @@ class Course : Fragment() {
         data.add("Working")
         data.add("Yeah")
         data.add("Ohho")
-        val adapter = CourseAdapter(view.context,data)
+        val adapter = CourseAdapter(view.context,data,this)
         rv.adapter  = adapter
         return view
+    }
+
+    override fun onClick(position: Int) {
+        val intent = Intent(requireActivity(),VideoNotesPage::class.java)
+        startActivity(intent)
     }
 
 }

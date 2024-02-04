@@ -18,35 +18,9 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="@drawable/toolbar_colour">
-
-            <ImageView
-                android:id="@+id/side_arrow"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/baseline_keyboard_backspace_24"
-                android:padding="2dp"
-                android:contentDescription="@string/todo">
-
-            </ImageView>
-
-
-           <TextView
-               android:id="@+id/Eklavya"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="@string/eklavya_batch"
-               android:textSize="25sp"
-               android:textColor="@color/black"
-               android:textStyle="bold"
-               android:padding="2dp"
-               />
-
-
-        </androidx.appcompat.widget.Toolbar>
-
-
-
+            android:background="@drawable/toolbar_colour"
+            app:navigationIcon="@drawable/arrow"
+            app:title="@string/eklavya_batch"/>
     </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.tabs.TabLayout

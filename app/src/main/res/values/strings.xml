@@ -5,7 +5,6 @@
     <string name="downloads">downloads</string>
     <string name="q_a"><![CDATA[Q&A]]></string>
 
-    
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home_fragment">home fragment</string>
     <string name="download_fragment">download fragment</string>
@@ -91,6 +90,7 @@
     <string name="auto_play">Auto-Play</string>
     <string name="recomended_course">Recomended Course</string>
     <string name="trending_course">Trending Course</string>
+    <string name="available_soon">Available Soon</string>
 
 
 </resources>

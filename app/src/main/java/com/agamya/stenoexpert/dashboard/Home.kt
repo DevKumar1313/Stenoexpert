@@ -21,18 +21,18 @@ class Home : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_home, container, false)
-//        rv = view.findViewById(R.id.rv)
-//        rv2 = view.findViewById(R.id.rv2)
-//        rv.layoutManager = LinearLayoutManager(view.context,LinearLayoutManager.HORIZONTAL,false)
-//        rv2.layoutManager = LinearLayoutManager(view.context,LinearLayoutManager.HORIZONTAL,false)
-//        data = ArrayList()
-//        data.add("Hello")
-//        data.add("Working")
-//        data.add("Yeah")
-//        data.add("Ohho")
-//        val adapter = CourseAdapter(view.context,data)
-//        rv.adapter  = adapter
-//        rv2.adapter  = adapter
+        rv = view.findViewById(R.id.rv)
+        rv2 = view.findViewById(R.id.rv2)
+        rv.layoutManager = LinearLayoutManager(view.context,LinearLayoutManager.HORIZONTAL,false)
+        rv2.layoutManager = LinearLayoutManager(view.context,LinearLayoutManager.HORIZONTAL,false)
+        data = ArrayList()
+        data.add("Hello")
+        data.add("Working")
+        data.add("Yeah")
+        data.add("Ohho")
+        val adapter = HomeCourseAdapter(view.context,data)
+        rv.adapter  = adapter
+        rv2.adapter  = adapter
 
         return view
     }

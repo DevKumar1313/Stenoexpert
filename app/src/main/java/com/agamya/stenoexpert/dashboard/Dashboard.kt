@@ -44,7 +44,7 @@ class Dashboard : AppCompatActivity() {
             when (it.itemId){
                 R.id.home -> {
                     loadFragment(Home())
-                    Toast.makeText(this, "Design By Suraj and Shiv(Dashboard)", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Design By Suraj, Dev and Shiv(Dashboard)", Toast.LENGTH_SHORT).show()
                 }
                 R.id.course -> {
                     loadFragment(Course())
