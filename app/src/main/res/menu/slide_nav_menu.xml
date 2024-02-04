@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:title="@string/account">
+            <menu>
+                <item android:id="@+id/purchase"
+                    android:title="@string/my_purchase"
+                    android:icon="@drawable/purchase"
+                    />
+            </menu>
+        </item>
+
+
+    </group>
+
+    <group>
+        <item android:title="@string/profile">
+            <menu>
+                <item android:id="@+id/setting"
+                    android:title="@string/settings"
+                    android:icon="@drawable/setting"
+                    />
+                <item android:id="@+id/logOut"
+                    android:title="@string/log_out"
+                    android:icon="@drawable/logout"/>
+            </menu>
+        </item>
+    </group>
+    <group >
+
+        <item android:title="@string/communicate">
+            <menu>
+                <item android:id="@+id/rating"
+                    android:title="@string/rate"
+                    android:icon="@drawable/rate"/>
+
+                <item android:id="@+id/share"
+                    android:title="@string/share"
+                    android:icon="@drawable/share"/>
+
+                <item android:id="@+id/contact"
+                    android:title="@string/contact_us"
+                    android:icon="@drawable/baseline_contact_support_24"/>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
