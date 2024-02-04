@@ -19,7 +19,7 @@
         android:id="@+id/notes_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/notes_demo1"
+        android:text="@string/notes_demo"
         android:textColor="@color/black"
 
         android:textSize="25sp"

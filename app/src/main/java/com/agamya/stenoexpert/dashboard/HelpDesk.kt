@@ -23,14 +23,14 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import okhttp3.OkHttpClient
+
 
 
 class HelpDesk : Fragment() {
 
 
 
-    private val client = OkHttpClient()
+
     private val messageList = mutableListOf<Message>()
     private lateinit var messageAdapter: MessageAdapter
     private lateinit var recyclerView:RecyclerView

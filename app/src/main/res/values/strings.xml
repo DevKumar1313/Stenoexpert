@@ -22,7 +22,7 @@
     <string name="it_s_beautiful">it\'s beautiful</string>
     <string name="demo_1">Demo 1</string>
     <string name="topics_demo_1_demo_2_demo_3">Topics:Demo 1,Demo 2,Demo 3</string>
-
+    <string name="tudo">Todo</string>
     <string name="OpenDrawer">Open navigation drawer</string>
     <string name="CloseDrawer">Close navigation drawer</string>
     <string name="communicate">Communicate</string>
@@ -31,5 +31,15 @@
     <string name="contact_us">Contact Us</string>
     <string name="how_can_i_help_you">How can i help you</string>
     <string name="ask">Ask</string>
+    <string name="notes_demo">Notes demo</string>
+    <string name="page_16">Page - 26</string>
+    <string name="lecture_demo1">Lecture : Demo 1</string>
+    <string name="video_25_45_mins">Video - 25:45 mins</string>
+    <string name="todo">todo</string>
+    <string name="home"></string>
+    <string name="course"></string>
+    <string name="downloads"></string>
+    <string name="q_a"></string>
+
 
 </resources>

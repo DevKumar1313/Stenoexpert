@@ -9,7 +9,8 @@ import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.agamya.stenoexpert.R
-import okio.IOException
+import java.io.IOException
+
 
 class VideoPlayerPage : AppCompatActivity() {
     private lateinit var rv:RecyclerView
@@ -33,7 +34,7 @@ class VideoPlayerPage : AppCompatActivity() {
             videoView.requestFocus()
             videoView.start()
 
-        }catch (e:IOException){
+        }catch (e: IOException){
             Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show()
         }
 
