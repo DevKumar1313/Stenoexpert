@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:background="@drawable/boundry_style"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/course_Img"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/agamya_logo"
+        android:contentDescription="@string/my_image"
+        android:background="@drawable/boundry_style"/>
+
+    <TextView
+        android:id="@+id/course_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/course_Img"
+        android:text="@string/eklavya_batch"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Owner_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/course_Title"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/sahil_kumar"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Owner_name"
+        android:text="@string/_4_5"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Owner_name"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/rating"
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Owner_name"
+            android:layout_toRightOf="@id/rating"
+            android:background="@drawable/baseline_star_rate_24"
+            android:contentDescription="@string/todo"
+            tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Owner_name"
+            android:layout_toRightOf="@id/rating"
+            android:background="@drawable/baseline_star_rate_24"
+            android:contentDescription="@string/my_image"
+            tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Owner_name"
+            android:layout_toRightOf="@id/rating"
+            android:background="@drawable/baseline_star_rate_24"
+            android:contentDescription="@string/my_image"
+            tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Owner_name"
+            android:layout_toRightOf="@id/rating"
+            android:background="@drawable/baseline_star_rate_24"
+            android:contentDescription="@string/my_image"
+            tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Owner_name"
+            android:layout_toRightOf="@id/rating"
+            android:background="@drawable/baseline_star_half_24"
+            android:contentDescription="@string/my_image"
+            tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/symbol"
+        android:layout_width="49dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/rating"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rupee"
+        android:contentDescription="@string/my_image" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/symbol"
+        android:layout_below="@+id/rating"
+        android:layout_marginTop="10dp"
+        android:text="@string/_449_00"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_style"
+        android:text="@string/bestseller"
+        android:textSize="25sp"
+        tools:ignore="RtlHardcoded" />
+
+
+</RelativeLayout>
