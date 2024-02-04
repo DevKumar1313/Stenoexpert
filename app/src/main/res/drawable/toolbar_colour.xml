@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-
   <item>
       <shape>
-          <solid android:color="#ab00ff"/>
-          <corners android:bottomLeftRadius="18dp"
-              android:bottomRightRadius="18dp"/>
+          <gradient
+              android:startColor="@color/metal"
 
+              android:endColor="#D5FFFFFF" />
       </shape>
   </item>
-
 </selector>

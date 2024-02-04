@@ -4,6 +4,7 @@
     <string name="course">Course</string>
     <string name="downloads">downloads</string>
     <string name="q_a"><![CDATA[Q&A]]></string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home_fragment">home fragment</string>
@@ -15,7 +16,7 @@
     <string name="log_out">Log Out</string>
     <string name="rate">Rate</string>
     <string name="share">Share</string>
-    <string name="name">Name</string>
+
 
 
     <string name="lecture_video">Lecture video</string>
@@ -25,11 +26,9 @@
     <string name="it_s_beautiful">it\'s beautiful</string>
     <string name="demo_1">Demo 1</string>
     <string name="topics_demo_1_demo_2_demo_3">Topics:Demo 1,Demo 2,Demo 3</string>
-
     <string name="OpenDrawer">Open navigation drawer</string>
     <string name="CloseDrawer">Close navigation drawer</string>
     <string name="communicate">Communicate</string>
-    <string name="profile">Profile</string>
     <string name="account">Account</string>
     <string name="contact_us">Contact Us</string>
     <string name="how_can_i_help_you">How can i help you</string>
@@ -37,9 +36,51 @@
     <string name="_449_00">449.00</string>
     <string name="bestseller">Bestseller</string>
     <string name="_4_5">4.5</string>
-    <string name="sahil_kumar">Sahil kumar</string>
-    <string name="my_image">my image</string>
-    <string name="todo">TODO</string>
     <string name="eklavya_batch">Eklavya Batch</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="s">Name</string>
+
+
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="todo">TODO</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+
+    <string name="notes_demo">Notes demo</string>
+    <string name="page_16">Page - 26</string>
+    <string name="lecture_demo1">Lecture : Demo 1</string>
+    <string name="video_25_45_mins">Video - 25:45 mins</string>
+    <string name="volume_1_become_a_web_developer_specailist_learn_how_to_design_impressive_ui_build_logic_in_back_end_server_side_scripting">Volume 1: Become a Web Developer Specailist, Learn How to Design Impressive UI, Build logic in back-end, Server Side Scripting.</string>
+    <string name="sahil_kumar">Sahil Kumar</string>
+    <string name="view_course">View Course</string>
+
+
+    <string name="users_email_id">users email id</string>
+    <string name="payments_method">Payments Method</string>
+    <string name="users_name">Users name</string>
+    <string name="username">Username</string>
+
+    <string name="cards">Cards</string>
+    <string name="my_image">my image</string>
+    <string name="profile">Profile</string>
+    <string name="my_images">my images</string>
+    <string name="my_todo">my todo</string>
+    <string name="upi">UPI</string>
+    <string name="choose_image">choose image</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="edit">Edit</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    <string name="v">View Course</string>
+    <string name="Eklavya">Eklavya Batch</string>
+    <string name="sahil_kuma">Sahil Kumar</string>
+    <string name="volume_1_become_a_web_developer_specialist_learn_how_to_design_impressiveui_build_logic_in_back_end_server_side_scripting">Volume 1 : Become a web Developer Specialist, Learn How to Design ImpressiveUI, Build logic in back-end, Server Side Scripting.</string>
+    <string name="tod">TODO</string>
+
 
 </resources>
