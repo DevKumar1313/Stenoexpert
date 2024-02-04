@@ -36,10 +36,10 @@
     <string name="lecture_demo1">Lecture : Demo 1</string>
     <string name="video_25_45_mins">Video - 25:45 mins</string>
     <string name="todo">todo</string>
-    <string name="home"></string>
-    <string name="course"></string>
-    <string name="downloads"></string>
-    <string name="q_a"></string>
+    <string name="home">Home</string>
+    <string name="course">Course</string>
+    <string name="downloads">Downloads</string>
+    <string name="q_a">QA</string>
 
 
 </resources>
