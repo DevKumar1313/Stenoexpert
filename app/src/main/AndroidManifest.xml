@@ -35,6 +35,12 @@
             android:name=".videoplayerpage.VideoPlayerPage"
             android:exported="true">
 
+
+        </activity>
+        <activity
+
+            android:name=".dashboard.Dashboard"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,10 +48,6 @@
             </intent-filter>
 
         </activity>
-        <activity
-
-            android:name=".dashboard.Dashboard"
-            android:exported="true"/>
 
     </application>
 
