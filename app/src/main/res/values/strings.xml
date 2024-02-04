@@ -18,6 +18,7 @@
     <string name="rate">Rate</string>
     <string name="share">Share</string>
     <string name="name">Name</string>
+
     <string name="eklavya_batch">Eklavya batch</string>
     <string name="lecture_video">Lecture video</string>
     <string name="demo">Demo</string>
@@ -26,4 +27,14 @@
     <string name="it_s_beautiful">it\'s beautiful</string>
     <string name="demo_1">Demo 1</string>
     <string name="topics_demo_1_demo_2_demo_3">Topics:Demo 1,Demo 2,Demo 3</string>
+
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <string name="communicate">Communicate</string>
+    <string name="profile">Profile</string>
+    <string name="account">Account</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="how_can_i_help_you">How can i help you</string>
+    <string name="ask">Ask</string>
+
 </resources>

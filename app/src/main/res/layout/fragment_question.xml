@@ -1,17 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
     tools:context=".dashboard.HelpDesk">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/question_fragment"
-        android:textSize="67sp"
-        android:gravity="center"
-        />
+        android:padding="16dp"
+        android:background="#EEEEEE"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/layout"/>
 
-</FrameLayout>
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/messageInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/chat_input_style"
+            android:hint="@string/how_can_i_help_you"
+            android:autofillHints="Enter Doubt"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/ask"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/ask"/>
+    </LinearLayout>
+
+</RelativeLayout>

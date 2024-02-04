@@ -5,23 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/drawer"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
     tools:context=".dashboard.Dashboard">
 
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottom"
-            android:layout_width="match_parent"
-            android:layout_height="?actionBarSize"
-            android:layout_alignParentBottom="true"
-            app:menu="@menu/bottom_nav_menu"
-            app:itemIconSize="30dp"
-            android:background="@drawable/gradient"
-            />
 
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
@@ -33,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:title="Stenoexpert"
-                app:titleTextColor="@color/Navy"/>
+                app:titleTextColor="@color/Navy" />
 
         </com.google.android.material.appbar.AppBarLayout>
         <FrameLayout
@@ -43,19 +36,27 @@
             android:layout_marginTop="?actionBarSize"
             android:layout_marginBottom="?actionBarSize"/>
 
-        <com.google.android.material.navigation.NavigationView
-            android:id="@+id/slideNav"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            app:headerLayout="@layout/slide_nav_header"
-            app:menu="@menu/slide_nav_menu"
-            android:fitsSystemWindows="true"
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_nav_menu"
+            android:background="@drawable/gradient"
             />
 
     </RelativeLayout>
 
 
-
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/slideNav"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/slide_nav_header"
+        app:menu="@menu/slide_nav_menu"
+        android:fitsSystemWindows="true"
+        />
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
