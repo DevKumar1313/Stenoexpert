@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Stenoexpert</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1">1</string>
+    <string name="notes_demo1">Notes : Demo1</string>
+    <string name="page_16">Page - 16</string>
+    <string name="video_25_45_mins">Video - 25:45 mins</string>
+    <string name="lecture_demo1">Lecture : Demo1</string>
+    <string name="eklavya_batch">EKLAVYA BATCH</string>
+    <string name="todo">TODO</string>
 </resources>
