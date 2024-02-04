@@ -60,6 +60,11 @@
     <string name="mobile_number">Mobile number</string>
     <string name="state">State</string>
     <string name="district">District</string>
+    <string name="v">View Course</string>
+    <string name="Eklavya">Eklavya Batch</string>
+    <string name="sahil_kuma">Sahil Kumar</string>
+    <string name="volume_1_become_a_web_developer_specialist_learn_how_to_design_impressiveui_build_logic_in_back_end_server_side_scripting">Volume 1 : Become a web Developer Specialist, Learn How to Design ImpressiveUI, Build logic in back-end, Server Side Scripting.</string>
+    <string name="tod">TODO</string>
 
 
 </resources>
