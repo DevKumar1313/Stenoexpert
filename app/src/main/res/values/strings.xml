@@ -36,5 +36,11 @@
     <string name="contact_us">Contact Us</string>
     <string name="how_can_i_help_you">How can i help you</string>
     <string name="ask">Ask</string>
+    <string name="create_account">Create Account</string>
+    <string name="s">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
 
 </resources>
