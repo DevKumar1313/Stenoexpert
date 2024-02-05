@@ -6,12 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.agamya.stenoexpert.R
+import com.agamya.stenoexpert.dashboard.RecyclerViewClickInterface
 
 
-class Notes : Fragment() {
+class Notes : Fragment(),RecyclerViewClickInterface {
 
     private lateinit var rv:RecyclerView
     private lateinit var notesData:ArrayList<NotesData>
@@ -26,7 +28,7 @@ class Notes : Fragment() {
         notesData = ArrayList()
         getData()
 
-        val adapter = NotesAdapter(notesData)
+        val adapter = NotesAdapter(notesData,this)
         rv.adapter = adapter
 
         return view
@@ -49,6 +51,10 @@ class Notes : Fragment() {
         notesData.add(NotesData("Notes : Demo 1","Page - 16"))
         notesData.add(NotesData("Notes : Demo 1","Page - 16"))
         notesData.add(NotesData("Notes : Demo 1","Page - 16"))
+    }
+
+    override fun onClick(position: Int) {
+        Toast.makeText(requireActivity(), "Available Soon", Toast.LENGTH_SHORT).show()
     }
 
 

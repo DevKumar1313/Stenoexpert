@@ -1,8 +1,10 @@
 package com.agamya.stenoexpert.dashboard
 
+import android.content.Context
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
+import android.content.Intent
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -10,6 +12,8 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.agamya.stenoexpert.R
+import com.agamya.stenoexpert.authentication.LoginPage
+import com.agamya.stenoexpert.settings.SettingsPage
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 
@@ -38,10 +42,22 @@ class Dashboard : AppCompatActivity() {
 
         bottomNav.setOnItemSelectedListener {
             when (it.itemId){
-                R.id.home -> loadFragment(Home())
-                R.id.course -> loadFragment(Course())
-                R.id.download -> loadFragment(Download())
-                R.id.helpDesk -> loadFragment(HelpDesk())
+                R.id.home -> {
+                    loadFragment(Home())
+                    Toast.makeText(this, "Design By Suraj, Dev and Shiv(Dashboard)", Toast.LENGTH_SHORT).show()
+                }
+                R.id.course -> {
+                    loadFragment(Course())
+                    Toast.makeText(this, "Design By Trisha(Course Design)", Toast.LENGTH_SHORT).show()
+                }
+                R.id.download -> {
+                    loadFragment(Download())
+                    Toast.makeText(this, "Congratulation", Toast.LENGTH_SHORT).show()
+                }
+                R.id.helpDesk -> {
+                    loadFragment(HelpDesk())
+                    Toast.makeText(this, "Design By Shiv(Chat Bot)", Toast.LENGTH_SHORT).show()
+                }
             }
             return@setOnItemSelectedListener true
         }
@@ -49,6 +65,19 @@ class Dashboard : AppCompatActivity() {
         slideNav.setNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.purchase -> Toast.makeText(this, "Purchase", Toast.LENGTH_SHORT).show()
+                R.id.setting ->{
+                    val intent = Intent(this@Dashboard,SettingsPage::class.java)
+                    startActivity(intent)
+                }
+                R.id.logOut ->{
+                    val pref2 = getSharedPreferences("LoginStatus", Context.MODE_PRIVATE)
+                    val editor = pref2.edit()
+                    editor.putBoolean("status",false)
+                    editor.apply()
+                    val intent = Intent(this@Dashboard, LoginPage::class.java)
+                    startActivity(intent)
+                    finish()
+                }
             }
 
             drawer.closeDrawer(GravityCompat.START)

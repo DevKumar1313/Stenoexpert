@@ -9,28 +9,19 @@
     android:orientation="horizontal">
 
 
-    <TextView
-        android:id="@+id/text"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@drawable/design"
-        android:text="@string/eklavya_batch"
-        android:textColor="@color/black"
-        android:layout_alignParentTop="true"
-        android:textStyle="bold"
-        android:paddingTop="13dp"
-        android:drawablePadding="5dp"
-        android:paddingStart="5dp"
-        android:paddingEnd="10dp"
-        android:drawableTint="@color/black"
-        android:drawableStart="@drawable/arrow"
-        android:textSize="25sp"
-        tools:ignore="UseCompatTextViewDrawableXml" />
+        android:background="@color/Silver"
+        app:navigationIcon="@drawable/arrow"
+        app:title="@string/eklavya_batch"
+        />
     <VideoView
         android:id="@+id/videoPlayer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_below="@id/text"/>
+        android:layout_below="@id/toolbar"/>
 
     <ProgressBar
         android:id="@+id/progress"

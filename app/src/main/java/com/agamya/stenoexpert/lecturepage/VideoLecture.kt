@@ -1,5 +1,6 @@
 package com.agamya.stenoexpert.lecturepage
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,9 +9,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.agamya.stenoexpert.R
+import com.agamya.stenoexpert.dashboard.RecyclerViewClickInterface
+import com.agamya.stenoexpert.videoplayerpage.VideoPlayerPage
 
 
-class VideoLecture : Fragment() {
+class VideoLecture : Fragment(),RecyclerViewClickInterface {
      private lateinit var rv:RecyclerView
      private lateinit var lectureData:ArrayList<LectureData>
     override fun onCreateView(
@@ -24,7 +27,7 @@ class VideoLecture : Fragment() {
         lectureData =ArrayList()
         getData()
 
-        val adapter = VideoLectureAdapter(lectureData)
+        val adapter = VideoLectureAdapter(lectureData,this)
         rv.adapter=adapter
 
 
@@ -48,6 +51,11 @@ class VideoLecture : Fragment() {
         lectureData.add(LectureData("Lecture : Demo 1","Video - 25:45 mins"))
         lectureData.add(LectureData("Lecture : Demo 1","Video - 25:45 mins"))
         lectureData.add(LectureData("Lecture : Demo 1","Video - 25:45 mins"))
+    }
+
+    override fun onClick(position: Int) {
+        val intent = Intent(requireActivity(),VideoPlayerPage::class.java)
+        startActivity(intent)
     }
 
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/imgg34"
-    tools:context=".authentication.signup_page">
+    tools:context=".authentication.SignupPage">
     <TextView
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -15,6 +15,7 @@
         android:textSize="50sp"
         android:layout_margin="30dp"/>
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="180dp"
         android:layout_height="200dp"
         android:src="@drawable/download23"
@@ -27,79 +28,74 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_below="@id/logo"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/name"
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="320dp"
+            android:autofillHints="ENTER NAME"
             android:background="@drawable/round_corner"
             android:hint="@string/s"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
             android:inputType="text"
             android:padding="15dp"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            android:textSize="23sp"
-            android:textStyle="bold"
-            android:autofillHints="ENTER NAME" />
+            android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/Email"
-            android:layout_width="match_parent"
+            android:id="@+id/email_id"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:background="@drawable/round_corner"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:hint="@string/email"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:padding="15dp"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            android:textSize="23sp"
-            android:textStyle="bold"
-            tools:ignore="TextFields"
+            android:textSize="18sp"
             android:autofillHints="ENTER NAME" />
 
         <EditText
-            android:layout_width="match_parent"
+            android:id="@+id/password"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/round_corner"
             android:hint="@string/password"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:padding="15dp"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            android:textSize="23sp"
-            android:textStyle="bold"
+            android:textSize="18sp"
             android:autofillHints="ENTER NAME" />
 
         <TextView
+            android:id="@+id/sign_in"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="90dp"
             android:layout_marginTop="20dp"
-            android:text="@string/sign_up"
+            android:text="@string/sign_in"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            android:textSize="30sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:drawableEndCompat="@drawable/select" />
         <Button
-            android:id="@+id/signin"
+            android:id="@+id/sign_up"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="50dp"
             android:background="@drawable/round_corner"
             android:backgroundTint="@color/black"
             android:padding="15dp"
-            android:text="@string/sign_in"
+            android:text="@string/sign_up"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </LinearLayout>
