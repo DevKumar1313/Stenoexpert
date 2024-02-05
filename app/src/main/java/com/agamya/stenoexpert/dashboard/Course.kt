@@ -29,10 +29,10 @@ class Course : Fragment(),RecyclerViewClickInterface {
         rv.layoutManager = GridLayoutManager(view.context,2)
 
         data = ArrayList()
-        data.add("Hello")
-        data.add("Working")
-        data.add("Yeah")
-        data.add("Ohho")
+        data.add("Ethical Hacking")
+        data.add("Networking")
+        data.add("App Development")
+        data.add("React App")
         val adapter = CourseAdapter(view.context,data,this)
         rv.adapter  = adapter
         return view

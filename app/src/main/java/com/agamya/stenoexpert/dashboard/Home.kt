@@ -26,10 +26,10 @@ class Home : Fragment() {
         rv.layoutManager = LinearLayoutManager(view.context,LinearLayoutManager.HORIZONTAL,false)
         rv2.layoutManager = LinearLayoutManager(view.context,LinearLayoutManager.HORIZONTAL,false)
         data = ArrayList()
-        data.add("Hello")
-        data.add("Working")
-        data.add("Yeah")
-        data.add("Ohho")
+        data.add("Ethical Hacking")
+        data.add("Networking")
+        data.add("App Development")
+        data.add("React App")
         val adapter = HomeCourseAdapter(view.context,data)
         rv.adapter  = adapter
         rv2.adapter  = adapter
