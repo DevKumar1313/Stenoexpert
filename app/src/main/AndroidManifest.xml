@@ -26,27 +26,35 @@
             android:exported="false" />
         <activity
             android:name=".authentication.SignupPage"
-            android:exported="false" />
-        <activity
+            android:exported="false">
 
+        </activity>
+
+        <activity
             android:name=".authentication.LoginPage"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity
             android:name=".videoplayerpage.VideoPlayerPage"
-            android:exported="true"/>
+            android:exported="true">
+
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity android:name=".lecturepage.VideoNotesPage"
             android:exported="false"/>
+
         <activity
 
             android:name=".dashboard.Dashboard"
             android:exported="false"/>
+
 
 
     </application>
