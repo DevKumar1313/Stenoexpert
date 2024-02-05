@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Stenoexpert</string>
+    <string name="course_web_development">Course: Web Development</string>
+    <string name="course_details">Coursedetails</string>
+    <string name="course_duration_104hrs">Course Duration:104hrs</string>
+    <string name="course_web_devolpment">Course : web Devolpment</string>
+    <string name="course_duration_104hrs_">Course Duration : 104hrs</string>
+    <string name="volume_1_become_a_web_developer_specialist_learn_how_to_design_impressive_ui_build_logic_in_back_end_server_side_scripting">Volume 1 : Become a Web Developer Specialist, learn How to Design Impressive UI , Build logic in back-end, Server Side Scripting.</string>
+    <string name="no_of_questions_300_questions">No of Questions : 300 Questions</string>
+    <string name="no_of_tests_10_mock_test">No of Tests : 10 Mock Test</string>
+    <string name="bestseller">Bestseller</string>
+    <string name="_4_5">4.5</string>
+
+    <string name="_449_00">₹449.00</string>
+    <string name="sahil_kumar">Sahil Kumar</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="add_to_favourite">Add to favourite</string>
+    <string name="created_by">Created by</string>
+    <string name="star4">star4</string>
+    <string name="logo">logo</string>
+    <string name="star2">star2</string>
+    <string name="star1">star1</string>
+    <string name="star3">star3</string>
+    <string name="button3">button3</string>
+    <string name="button4">button4</string>
+    <string name="star5">star5</string>
 </resources>
