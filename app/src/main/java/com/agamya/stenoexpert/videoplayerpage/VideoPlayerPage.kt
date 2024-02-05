@@ -38,9 +38,5 @@ class VideoPlayerPage : AppCompatActivity() {
             Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show()
         }
 
-
-
-
-
     }
 }
