@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lecture_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/lecture_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lecture_demo1"
+        android:textSize="25sp"
+
+        android:textColor="@color/black"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/lecture_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video_25_45_mins"
+        android:textColor="@color/black"
+        android:layout_marginStart="45dp"
+
+        android:textSize="18sp"
+        android:layout_marginTop="37dp"/>
+
+    <ImageView
+        android:id="@+id/lecture_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_download_for_offline_24"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+
+
+
+</RelativeLayout>
