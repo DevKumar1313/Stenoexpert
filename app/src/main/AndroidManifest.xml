@@ -17,10 +17,21 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".Coursedetails"
+            android:exported="false"/>
+           <activity
             android:name=".settings.SettingsPage"
             android:exported="false" />
+
         <activity android:name=".profile_page.ProfilePage"
-            android:exported="false"/>
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="false" />
@@ -33,20 +44,12 @@
         <activity
             android:name=".authentication.LoginPage"
             android:exported="true">
-
         </activity>
 
         <activity
             android:name=".videoplayerpage.VideoPlayerPage"
-            android:exported="true">
+            android:exported="false"/>
 
-
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
         <activity android:name=".lecturepage.VideoNotesPage"
             android:exported="false"/>
 
@@ -54,9 +57,6 @@
 
             android:name=".dashboard.Dashboard"
             android:exported="false"/>
-
-
-
     </application>
 
 </manifest>
