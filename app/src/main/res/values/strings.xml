@@ -10,7 +10,6 @@
     <string name="no_of_tests_10_mock_test">No of Tests : 10 Mock Test</string>
     <string name="bestseller">Bestseller</string>
     <string name="_4_5">4.5</string>
-
     <string name="_449_00">₹449.00</string>
     <string name="sahil_kumar">Sahil Kumar</string>
     <string name="buy_now">Buy Now</string>
@@ -92,6 +91,16 @@
     <string name="contact_us">Contact</string>
     <string name="OpenDrawer">OpenDrawer</string>
     <string name="CloseDrawer">CloseDrawer</string>
+    <string name="v">View Course</string>
+    <string name="Eklavya">Eklavya Batch</string>
+    <string name="sahil_kuma">Sahil Kumar</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="cancel">Cancel</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="my_profile">My Profile</string>
+
 
 
 </resources>
