@@ -13,6 +13,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.agamya.stenoexpert.R
 import com.agamya.stenoexpert.authentication.LoginPage
+import com.agamya.stenoexpert.profile_page.ProfilePage
 import com.agamya.stenoexpert.settings.SettingsPage
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
@@ -42,6 +43,7 @@ class Dashboard : AppCompatActivity() {
 
         bottomNav.setOnItemSelectedListener {
             when (it.itemId){
+
                 R.id.home -> {
                     loadFragment(Home())
                     Toast.makeText(this, "Design By Suraj, Dev and Shiv(Dashboard)", Toast.LENGTH_SHORT).show()
@@ -64,6 +66,10 @@ class Dashboard : AppCompatActivity() {
 
         slideNav.setNavigationItemSelectedListener {
             when(it.itemId){
+                R.id.profile -> {
+                    val intent = Intent(this@Dashboard, ProfilePage::class.java)
+                    startActivity(intent)
+                }
                 R.id.purchase -> Toast.makeText(this, "Purchase", Toast.LENGTH_SHORT).show()
                 R.id.setting ->{
                     val intent = Intent(this@Dashboard,SettingsPage::class.java)

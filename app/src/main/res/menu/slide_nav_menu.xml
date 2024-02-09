@@ -4,10 +4,16 @@
     <group>
         <item android:title="@string/account">
             <menu>
+
+                <item android:id="@+id/profile"
+                    android:title="@string/my_profile"
+                    android:icon="@drawable/profile_page"
+                    />
                 <item android:id="@+id/purchase"
                     android:title="@string/my_purchase"
                     android:icon="@drawable/purchase"
                     />
+
             </menu>
         </item>
 

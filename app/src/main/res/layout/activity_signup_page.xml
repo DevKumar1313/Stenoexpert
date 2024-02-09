@@ -86,6 +86,19 @@
             android:textStyle="bold"
             app:drawableEndCompat="@drawable/select" />
         <Button
+            android:id="@+id/getOTP"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="@color/black"
+            android:padding="15dp"
+            android:text="@string/get_otp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
             android:id="@+id/sign_up"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
@@ -96,7 +109,8 @@
             android:text="@string/sign_up"
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone"/>
 
     </LinearLayout>
     
