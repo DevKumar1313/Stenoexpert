@@ -24,7 +24,7 @@
     <string name="button3">button3</string>
     <string name="button4">button4</string>
     <string name="star5">star5</string>
-    <string name="sign_in">Signin</string>
+    <string name="sign_in">Sign in</string>
     <string name="todo">todo</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
@@ -54,8 +54,7 @@
     <string name="frequently_asked_question">FrequentlyAsked</string>
     <string name="share_stenoexpert">ShareStenoexpert</string>
     <string name="account_settings">AccountSettings</string>
-    <string name="create_account">CreateAccount</string>
-    <string name="s">S</string>
+    <string name="create_account">Create Account</string>
     <string name="eklavya_batch">Eklavya</string>
     <string name="topics_demo_1_demo_2_demo_3">Topics</string>
     <string name="demo_1">Demo</string>
