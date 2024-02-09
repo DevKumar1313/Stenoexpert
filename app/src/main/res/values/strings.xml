@@ -8,17 +8,44 @@
     <string name="volume_1_become_a_web_developer_specialist_learn_how_to_design_impressive_ui_build_logic_in_back_end_server_side_scripting">Volume 1 : Become a Web Developer Specialist, learn How to Design Impressive UI , Build logic in back-end, Server Side Scripting.</string>
     <string name="no_of_questions_300_questions">No of Questions : 300 Questions</string>
     <string name="no_of_tests_10_mock_test">No of Tests : 10 Mock Test</string>
+    <string name="course">Course</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">home fragment</string>
+    <string name="download_fragment">download fragment</string>
+    <string name="question_fragment">question fragment</string>
+    <string name="stenoexpert">Stenoexpert</string>
+    <string name="my_purchase">My Purchase</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+
+
+    <string name="lecture_video">Lecture video</string>
+    <string name="demo">Demo</string>
+    <string name="logo">logo</string>
+    <string name="it_s_beautiful">it\'s beautiful</string>
+    <string name="demo_1">Demo 1</string>
+    <string name="topics_demo_1_demo_2_demo_3">Topics:Demo 1,Demo 2,Demo 3</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <string name="communicate">Communicate</string>
+    <string name="account">Account</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="how_can_i_help_you">How can i help you</string>
+    <string name="ask">Ask</string>
+    <string name="_449_00">449.00</string>
     <string name="bestseller">Bestseller</string>
     <string name="_4_5">4.5</string>
 
-    <string name="_449_00">₹449.00</string>
+
     <string name="sahil_kumar">Sahil Kumar</string>
     <string name="buy_now">Buy Now</string>
     <string name="add_to_cart">Add to cart</string>
     <string name="add_to_favourite">Add to favourite</string>
     <string name="created_by">Created by</string>
     <string name="star4">star4</string>
-    <string name="logo">logo</string>
     <string name="star2">star2</string>
     <string name="star1">star1</string>
     <string name="star3">star3</string>
@@ -44,54 +71,46 @@
     <string name="mobile_number">MobileNumber</string>
     <string name="state">State</string>
     <string name="district">District</string>
-    <string name="profile_setting">ProfileSetting</string>
-    <string name="video_settings">VideoSettings</string>
-    <string name="video_download_quality">VideoDownloadQuality</string>
-    <string name="auto_play">AutoPlay</string>
-    <string name="download_settings">DownloadSettings</string>
-    <string name="help_and_support">HelpAndSupport</string>
-    <string name="about_stenoexpert">AboutStenoexpert</string>
-    <string name="our_services">OurServices</string>
-    <string name="frequently_asked_question">FrequentlyAsked</string>
-    <string name="share_stenoexpert">ShareStenoexpert</string>
-    <string name="account_settings">AccountSettings</string>
+
     <string name="create_account">CreateAccount</string>
     <string name="s">S</string>
     <string name="eklavya_batch">Eklavya</string>
-    <string name="topics_demo_1_demo_2_demo_3">Topics</string>
-    <string name="demo_1">Demo</string>
-    <string name="available_soon">AvailableSoon</string>
-    <string name="recomended_course">Recommended</string>
-    <string name="trending_course">TrendingCourse</string>
-    <string name="ask">Ask</string>
-    <string name="how_can_i_help_you">HowToHelp</string>
     <string name="my_image">Image</string>
-    <string name="tod">Tod</string>
     <string name="view_course">ViewCourse</string>
-    <string name="volume_1_become_a_web_developer_specialist_learn_how_to_design_impressiveui_build_logic_in_back_end_server_side_scripting">Volume</string>
     <string name="notes_demo">NotesDemo</string>
     <string name="page_16">Page</string>
-    <string name="_1">1</string>
-    <string name="demo">Demo</string>
-    <string name="lecture_video">Lecture</string>
     <string name="name">Name</string>
     <string name="video_25_45_mins">Video</string>
     <string name="lecture_demo1">LectureDemo1</string>
-    <string name="course">Course</string>
     <string name="downloads">Downloads</string>
     <string name="q_a">QA</string>
     <string name="home">Home</string>
-    <string name="account">Account</string>
-    <string name="my_purchase">Purchase</string>
     <string name="profile">Profile</string>
-    <string name="settings">Settings</string>
-    <string name="log_out">LogOut</string>
-    <string name="communicate">Communicate</string>
-    <string name="rate">Rate</string>
-    <string name="share">Share</string>
-    <string name="contact_us">Contact</string>
-    <string name="OpenDrawer">OpenDrawer</string>
-    <string name="CloseDrawer">CloseDrawer</string>
+
+    <string name="v">View Course</string>
+    <string name="Eklavya">Eklavya Batch</string>
+    <string name="sahil_kuma">Sahil Kumar</string>
+    <string name="volume_1_become_a_web_developer_specialist_learn_how_to_design_impressiveui_build_logic_in_back_end_server_side_scripting">Volume 1 : Become a web Developer Specialist.</string>
+    <string name="tod">TODO</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="profile_setting">Profile Setting</string>
+    <string name="video_settings">Video Settings</string>
+    <string name="video_download_quality">Video Download Quality</string>
+    <string name="download_settings">Download Settings</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="about_stenoexpert">About Stenoexpert</string>
+    <string name="our_services">Our Services</string>
+    <string name="frequently_asked_question">Frequently asked question</string>
+    <string name="share_stenoexpert">Share Stenoexpert</string>
+    <string name="auto_play">Auto-Play</string>
+    <string name="recomended_course">Recommended Course</string>
+    <string name="trending_course">Trending Course</string>
+    <string name="available_soon">Available Soon</string>
+    <string name="_1">1</string>
+    <string name="lecture_demo">Lecture Demo</string>
+    <string name="get_started">Get Started</string>
+    <string name="set_image">set image</string>
+    <string name="skip">Skip</string>
 
 
 </resources>
