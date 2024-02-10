@@ -9,16 +9,12 @@
     <string name="no_of_questions_300_questions">No of Questions : 300 Questions</string>
     <string name="no_of_tests_10_mock_test">No of Tests : 10 Mock Test</string>
     <string name="course">Course</string>
-
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home_fragment">home fragment</string>
     <string name="download_fragment">download fragment</string>
     <string name="question_fragment">question fragment</string>
     <string name="stenoexpert">Stenoexpert</string>
     <string name="my_purchase">My Purchase</string>
-
-
-
     <string name="lecture_video">Lecture video</string>
     <string name="demo">Demo</string>
     <string name="logo">logo</string>
@@ -30,8 +26,6 @@
     <string name="ask">Ask</string>
     <string name="bestseller">Bestseller</string>
     <string name="_4_5">4.5</string>
-
-
     <string name="_449_00">₹449.00</string>
     <string name="sahil_kumar">Sahil Kumar</string>
     <string name="buy_now">Buy Now</string>
@@ -116,6 +110,4 @@
     <string name="resend_otp">Resend OTP</string>
     <string name="get_otp">Get OTP</string>
     <string name="my_profile">My Profile</string>
-    
-
 </resources>
