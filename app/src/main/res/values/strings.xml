@@ -45,7 +45,7 @@
     <string name="button3">button3</string>
     <string name="button4">button4</string>
     <string name="star5">star5</string>
-    <string name="sign_in">Signin</string>
+    <string name="sign_in">Sign in</string>
     <string name="todo">todo</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
@@ -64,9 +64,19 @@
     <string name="mobile_number">MobileNumber</string>
     <string name="state">State</string>
     <string name="district">District</string>
-
-    <string name="create_account">CreateAccount</string>
     <string name="s">S</string>
+    <string name="profile_setting">ProfileSetting</string>
+    <string name="video_settings">VideoSettings</string>
+    <string name="video_download_quality">VideoDownloadQuality</string>
+    <string name="auto_play">AutoPlay</string>
+    <string name="download_settings">DownloadSettings</string>
+    <string name="help_and_support">HelpAndSupport</string>
+    <string name="about_stenoexpert">AboutStenoexpert</string>
+    <string name="our_services">OurServices</string>
+    <string name="frequently_asked_question">FrequentlyAsked</string>
+    <string name="share_stenoexpert">ShareStenoexpert</string>
+    <string name="account_settings">AccountSettings</string>
+    <string name="create_account">Create Account</string>
     <string name="eklavya_batch">Eklavya</string>
     <string name="my_image">Image</string>
     <string name="view_course">ViewCourse</string>
@@ -79,21 +89,8 @@
     <string name="q_a">QA</string>
     <string name="home">Home</string>
     <string name="profile">Profile</string>
-
-
     <string name="volume_1_become_a_web_developer_specialist_learn_how_to_design_impressiveui_build_logic_in_back_end_server_side_scripting">Volume 1 : Become a web Developer Specialist.</string>
     <string name="tod">TODO</string>
-    <string name="account_settings">Account Settings</string>
-    <string name="profile_setting">Profile Setting</string>
-    <string name="video_settings">Video Settings</string>
-    <string name="video_download_quality">Video Download Quality</string>
-    <string name="download_settings">Download Settings</string>
-    <string name="help_and_support">Help and Support</string>
-    <string name="about_stenoexpert">About Stenoexpert</string>
-    <string name="our_services">Our Services</string>
-    <string name="frequently_asked_question">Frequently asked question</string>
-    <string name="share_stenoexpert">Share Stenoexpert</string>
-    <string name="auto_play">Auto-Play</string>
     <string name="recomended_course">Recommended Course</string>
     <string name="trending_course">Trending Course</string>
     <string name="available_soon">Available Soon</string>
